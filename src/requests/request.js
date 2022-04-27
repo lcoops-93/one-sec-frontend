@@ -1,6 +1,7 @@
 const axios = require("axios");
 
-export const APIURL = "http://localhost:3002";
+// export const APIURL = "http://localhost:3002";
+export const APIURL = "";
 
 export const getJobs = sessionId => axios.get(`${APIURL}/conversions/node/${sessionId}`);
 

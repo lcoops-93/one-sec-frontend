@@ -93,7 +93,7 @@ function StyledDropzone(props) {
       <Container {...getRootProps({isDragAccept, isDragReject, isFocused})}>
         <input {...getInputProps()} />
         {/* <p>Drag 'n' drop some files here, or click to select files</p> */}
-        {!isFocused && (<p>Drag 'n' drop some files here, or click to select files</p>)}
+        <p>Drag 'n' drop some files here, or click to select files</p>
         {(isDragReject || isDragAccept ) && (<p>Only image files accepted (.png, .jpg etc)</p>)}
       </Container>
 
