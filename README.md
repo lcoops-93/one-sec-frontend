@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+![React App - 11 May 2022](https://user-images.githubusercontent.com/56531743/167904750-8356f1af-b057-4d69-8428-6498b05ec95c.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Image to 1 Second Video Converter Web-App
+
+1 Second Video Converter is a simple Webapp, designed for Instagram influencers, to convert images to 1 second videos to help improve content engagement. Simply drag and drop any image from your computer or mobile, click the convert button and download the converted videos.
+
+## Backend Integration
+This is the frontend repository. This repository is designed to be build and then copied to the backend project, where the backend server will serve the Webapp frontend to all clients. The backend is reponsible for video conversion tasks.
 
 ## Available Scripts
 
